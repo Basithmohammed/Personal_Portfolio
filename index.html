@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Basith</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="jpg" href="logo1.jpg">
     <script src="https://kit.fontawesome.com/55287b7042.js" crossorigin="anonymous"></script>
+    
 
 </head>
 <body>
@@ -23,7 +25,7 @@
                 </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>WEB DEVELOPER</p>
+                <p>FULL STACK DEVELOPER</p>
                 <h1>Hi,I'm Mohammed<br><span>Basith A</span> from India</h1>
             </div>
         </div>
@@ -37,7 +39,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am Mohammed Basith A, a passionate Web Developer from Kerala, India, bringing you web development and design from the future.
+                    <p>I am Mohammed Basith A, a passionate Full Stack Developer from Kerala, India, bringing you web development and design from the future.
                          My expertise is developing next-level websites and web applications including full frontend and backend design . 
                        </p>
 
@@ -55,7 +57,7 @@
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            
+                            <li><span>2023 Nov - 2024 Jan</span><br>Training at Ezio Solutions Private Limited</li>
                             <li><span>2023 Jul - 2023 Nov</span><br>Internship under DDU-GKY</li>
                             <li><span>2022 Aug - 2023 Jan</span><br>Odoo Python Developer at Cybrosys Technology</li>
                             <li><span>2022 Jul - 2022 Aug</span><br>Internship at Sysbreez Technology</li>
@@ -64,7 +66,6 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2023 Nov - 2023 Dec</span><br>Training at Ezio Solutions Private Limited</li>
                             <li><span>2022</span><br>Btech from Government Engineering College Idukki</li>
                             <li><span>2018</span><br>Higher Education from MVHSS Vallikunnu</li>
                             
@@ -108,36 +109,49 @@
     <!-- -----------------portfolio--------------- -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">My Works</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png">
+                    <img src="images/work-4.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
+                        <h3>Online Quiz Website</h3>
+                        <p>The app connected you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://trivia-master-two.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/work-6.jpg">
+                    <div class="layer">
+                        <h3>Online Softdrink Website</h3>
                         <p>The app connected you to the talented people around the world.
                             Download it from play store.
                         </p>
                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
+                
                 <div class="work">
-                    <img src="images/work-2.png">
+                    <img src="images/work-5.png">
                     <div class="layer">
-                        <h3>Online Quiz App</h3>
+                        <h3>Online Shopping Website</h3>
                         <p>The app connected you to the talented people around the world.
                             Download it from play store.
                         </p>
-                        <a href="https://github.com/Basithmohammed/Online-Quiz"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://hexashop-three.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
+
                 <div class="work">
-                    <img src="images/work-3.png">
+                    <img src="images/work-7.jpg">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
+                        <h3>Online Financial Website</h3>
                         <p>The app connected you to the talented people around the world.
                             Download it from play store.
                         </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://rajesh-chitlange-finsery-llp.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -159,16 +173,17 @@
                         <a href="https://github.com/Basithmohammed"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.instagram.com/_bazi_____/?hl=en"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://twitter.com/Mhd_Basith_A"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/mohammed-basith-a-94b15b20a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/mhd-basith/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/9946737904"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
                 <a href="images/Mohammed Basith's Resume.pdf" download class="btn btn2">Download CV</a>
             </div>
                 <div class="contact-right">
-                    <form >
+                    <form action="mailto:contactmhdbasitha@gmail.com" method="post" enctype="text/plain">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required >
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <button type="submit" value="Send Email" onclick="sendEmail()" class="btn btn2">Submit</button>
                     </form>    
                 </div>
                 
@@ -179,7 +194,7 @@
         </div>
     </div>
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 
     <script>
